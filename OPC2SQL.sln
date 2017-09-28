@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC2SQL.Types", "OPC2SQL.Types\OPC2SQL.Types.csproj", "{D235A9A2-E15E-48EF-9100-E3340559BB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC2SQL.Client", "OPC2SQL.Client\OPC2SQL.Client.csproj", "{F3787185-F55A-4EAC-B665-15C9D645374D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC2SQL.Service", "OPC2SQL.Service\OPC2SQL.Service.csproj", "{E8EACCD3-399A-4DB9-9055-EF9A1F93BAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OPC2SQL.Extensions", "OPC2SQL.Extensions\OPC2SQL.Extensions.csproj", "{9262DE1D-7CB4-4CF5-9327-77A5CDCBC409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D235A9A2-E15E-48EF-9100-E3340559BB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D235A9A2-E15E-48EF-9100-E3340559BB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D235A9A2-E15E-48EF-9100-E3340559BB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D235A9A2-E15E-48EF-9100-E3340559BB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3787185-F55A-4EAC-B665-15C9D645374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3787185-F55A-4EAC-B665-15C9D645374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3787185-F55A-4EAC-B665-15C9D645374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3787185-F55A-4EAC-B665-15C9D645374D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EACCD3-399A-4DB9-9055-EF9A1F93BAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EACCD3-399A-4DB9-9055-EF9A1F93BAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EACCD3-399A-4DB9-9055-EF9A1F93BAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EACCD3-399A-4DB9-9055-EF9A1F93BAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9262DE1D-7CB4-4CF5-9327-77A5CDCBC409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9262DE1D-7CB4-4CF5-9327-77A5CDCBC409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9262DE1D-7CB4-4CF5-9327-77A5CDCBC409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9262DE1D-7CB4-4CF5-9327-77A5CDCBC409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

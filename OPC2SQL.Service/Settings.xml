@@ -1,0 +1,18 @@
+﻿<OPC2SQL>
+  <SQLSettings>
+    <SendData enabled="false" />
+    <ConnectionString value="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EnergoInterface;Data Source=UIT8-30\SQLEXPRESS" />
+    <StoredProc name="SendCurrent" />
+  </SQLSettings>
+  <OPCSettings>
+    <OPCServer name="Graybox.Simulator" readinterval="3000"/>
+    <tags>
+      <tag description="Тестовый тэг 1" name="Test1" OPCItemID="numeric.random.int16" />
+      <tag description="Тестовый тэг 2" name="Test2" OPCItemID="numeric.sin.int64" />
+    </tags>
+  </OPCSettings>
+  <LogSettings>
+    <DaysToLog value="5"/>
+  </LogSettings>
+</OPC2SQL>
+
